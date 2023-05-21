@@ -1,2 +1,33 @@
 -- https://github.com/imnowdevops/ddc-material --
 
+-- Install Vagrant --
+wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+sudo apt update && sudo apt install vagrant
+
+-- Install JDK --
+sudo apt install default-jdk
+
+-- Install Maven --
+sudo apt install maven 
+
+-- Insatll AWSCLI --
+sudo apt-get install awscli
+
+-- Account --
+
+-- Docker Hub --
+https://hub.docker.com/
+username: swapnasubham
+
+-- Github --
+https://github.com/
+username: swapnasubham-tcs
+
+-- AWS --
+https://430470204953.signin.aws.amazon.com/console
+username: swapnasubham
+
+-- SonarCloud --
+Using github 
+
